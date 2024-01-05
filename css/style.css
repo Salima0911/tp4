@@ -1,0 +1,240 @@
+* {
+	box-sizing: border-box;
+    padding: 0;
+
+}
+
+.container{
+    width:98%;
+    height: 1300px;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(247,247,247);
+    padding: 50px;
+}
+header{
+    background-color: rgb(200,200,200);
+    padding: 10px;
+    display: flex;  
+    justify-content: space-between;
+    height:100px ;
+  }
+.logo{
+    float: left;
+    margin: 3px;
+    padding: 6px;
+    margin-right:  20px;
+  }
+
+.text{
+    margin: auto;
+    width: 350px;
+    
+}
+.text h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top:0 ;
+
+}
+.text p {
+    margin-left: 70px;
+    margin-top: 4px;
+    color: rgb(224,36,168);
+    font-weight: bold;
+}
+.aide{
+    float: right;
+    margin-top: -18px;
+}
+.aide h1{
+    color:rgb(95,203,235) ;
+    margin-bottom: -20px;
+}
+.aide p{
+    background-image:url("../img/aide.png");
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+     color:rgb(95,203,235) ;
+}
+.panier {
+    background-color:rgb(95,203,235) ;
+    color:white;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    margin-top: -10px;
+    margin-right: -10px;
+    
+}
+.panier h5{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.img_panier p{
+    float: right;
+    margin-right: 40px;
+}
+.img_panier{
+    font-size: 15px;
+    color: white;
+    background-color:rgb(95,203,235) ;
+}
+nav{
+    
+    background-color:rgb(95,203,235);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;    
+    
+}nav.menu {
+    background-color: rgb(95,203,235)ua;
+	height: 40px;
+    width: 100%;
+    display: flex;
+}
+nav a {
+	margin: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+	background:  rgb(224,36,168);
+	color: white;
+ } 
+ul {
+	display: flex;
+	list-style-type: none;
+    justify-content: space-around;
+    margin-left: 60px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    width: 160px;
+}
+.clear{
+    clear: both;
+}
+
+.bandeau img{
+    width: 100%;
+}
+.presentation{
+    display: flex;
+    height:132 px;
+    justify-content: space-between;
+}
+.paiement{
+    
+    width: 10%;
+    padding-bottom: 50px;
+}
+.middle{
+    width: 60%;
+}
+.services{
+    width:25%;
+
+}
+
+.echange img{
+    margin-top: 20px;   
+}
+ #bonplan{
+       display: flex;
+       justify-content: space-between;
+       padding-bottom: 30px;
+}
+
+.bonplan1{
+    
+    
+    width: 30.30%;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bonplan1.robe p{
+    padding: 9100x;
+}
+.bonplan2{ 
+
+    width: 30.303%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+#bonplan img{
+    float:left;
+    padding: 10px;
+}
+#bonplan p{
+    width: 400px;
+    
+    
+}
+#bonplan button{
+    float:right;
+}
+#bonplan .titre{
+    text-align: center;
+    background-color: rgb(191,191,191);
+    height: 50px;
+    margin-top: -20px;
+    
+}
+ button {
+    
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+     cursor: pointer;
+  }
+  
+  #bonplan button {
+    background-color: white; 
+    color: rgb(95,203,235); 
+  
+  }
+  button:hover {
+    background-color: rgb(117, 213, 241)3;
+    
+  }
+ 
+footer{ 
+    background-color:rgb(95,203,235);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+ 
+    color: blanchedalmond;
+    margin-top: 15px;    
+}
+footer .news{
+    background-color: rgb(95,203,235)ua;
+	height: 40px;
+    width: 100%;
+    display: flex;
+    
+	list-style-type: none;
+   justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+footer a{
+    margin: 10px;
+}
